@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "60310906769",
+    "project_id": "healthcarefinder-161ee",
+    "storage_bucket": "healthcarefinder-161ee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60310906769:android:48f1bb7d98448c37aedc30",
+        "android_client_info": {
+          "package_name": "com.example.healthcare_finder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsKiL9etHqRpJeQrJwOIcgQyX6ud-8vOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Healthcare Finder</title>
+    <meta name="description" content="A location-based healthcare and clinic finder app for Ethiopia">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyAOHNRuid97Dbt3UVmnK-DlHd_UUoJ-mro",
+        authDomain: "healthcarefinder-161ee.firebaseapp.com",
+        projectId: "healthcarefinder-161ee",
+        storageBucket: "healthcarefinder-161ee.appspot.com",
+        messagingSenderId: "60310906769",
+        appId: "1:60310906769:web:75b98a7a67d7198daedc30",
+        measurementId: "G-MDM9GJ7LPS"
+      };
+
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <!-- Google Maps SDK -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYZRAwfiovcVtXPhKTgRPTykZOzanbR3A"></script>
+
+    <!-- Flutter Web App -->
+    <link rel="manifest" href="manifest.json">
+    <script src="flutter.js" defer></script>
+  </head>
+
+  <body>
+    <script src="main.dart.js" type="application/javascript"></script>
+  </body>
+</html>
